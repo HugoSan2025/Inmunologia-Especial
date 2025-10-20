@@ -1,4 +1,0 @@
-import { config } from 'dotenv';
-config();
-
-import '@/ai/flows/intelligent-search-assistant.ts';
