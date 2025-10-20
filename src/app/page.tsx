@@ -141,15 +141,14 @@ export default function Home() {
                           En Inmunología Especial, cada resultado es fruto del trabajo en equipo, no solo procesamos muestras, procesamos confianza. Detrás de cada diagnóstico, hay un profesional de Inmunología Especial.
                       </p>
                   </div>
-                  <div className="hidden lg:flex justify-center items-center p-8 bg-page-bg rounded-xl border border-gray-200 h-full min-h-[400px]">
+                  <div className="relative hidden lg:block rounded-xl overflow-hidden border border-gray-200 h-full min-h-[400px]">
                       {teamImage && (
                         <Image
                           src={teamImage.imageUrl}
                           alt={teamImage.description}
-                          width={600}
-                          height={400}
+                          fill
                           data-ai-hint={teamImage.imageHint}
-                          className="rounded-lg object-cover w-full h-full"
+                          className="object-cover"
                         />
                       )}
                   </div>
