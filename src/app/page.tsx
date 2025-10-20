@@ -149,7 +149,7 @@ export default function Home() {
                           width={600}
                           height={400}
                           data-ai-hint={teamImage.imageHint}
-                          className="rounded-lg object-cover"
+                          className="rounded-lg object-cover w-full h-full"
                         />
                       )}
                   </div>
