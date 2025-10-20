@@ -3,7 +3,7 @@
     {
       "id": "equipo-ide",
       "description": "Una imagen que representa al equipo de Inmunología Especial trabajando en un laboratorio.",
-      "imageUrl": "/equipo-ide.jpg",
+      "imageUrl": "https://images.unsplash.com/photo-1579154212918-5c4de164626a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxsYWJvcmF0b3J5JTIwdGVhbXxlbnwwfHx8fDE3NjA4NjYyOTB8MA&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "laboratory team"
     },
     {
