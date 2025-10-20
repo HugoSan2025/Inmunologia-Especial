@@ -3,8 +3,14 @@
     {
       "id": "equipo-ide",
       "description": "Una imagen que representa al equipo de Inmunología Especial trabajando en un laboratorio.",
-      "imageUrl": "https://images.unsplash.com/photo-1576091160550-2173dba999ef?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxsYWJvcmF0b3J5JTIwJTVDJTIwZG9jdG9yfGVufDB8fHx8MTcyMDQ2OTI1N3ww&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "laboratory doctor"
+      "imageUrl": "/equipo-ide.jpg",
+      "imageHint": "laboratory team"
+    },
+    {
+      "id": "placeholder-grafico",
+      "description": "Una imagen placeholder para el gráfico de remisión de síntomas.",
+      "imageUrl": "https://images.unsplash.com/photo-1551288049-bebda4e38f71?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxkYXRhJTIwY2hhcnR8ZW58MHx8fHwxNzYwODY1MTA2fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "data chart"
     }
   ]
 }
