@@ -1,6 +1,8 @@
 'use client';
 import { useState, useEffect } from 'react';
 import { Logo } from '@/components/logo';
+import Image from 'next/image';
+import { PlaceHolderImages } from '@/lib/placeholder-images';
 
 const phrases = [
   "El éxito no es final, el fracaso no es fatal: es el coraje de continuar lo que cuenta.",
@@ -52,6 +54,8 @@ const MotivationalPhrase = () => {
 
 
 export default function Home() {
+  const teamImage = PlaceHolderImages.find(p => p.id === "equipo-ide");
+
   return (
     <>
       <header className="sticky top-0 z-50 bg-background/95 backdrop-blur-sm shadow-lg shadow-gray-200/50 transition-all duration-300 border-b border-border">
@@ -134,11 +138,16 @@ export default function Home() {
                       </p>
                   </div>
                   <div className="hidden lg:flex justify-center items-center p-8 bg-background rounded-xl border border-border h-full min-h-[400px]">
-                      <div className="text-center text-muted-foreground">
-                          <svg className="w-16 h-16 mx-auto mb-4 text-primary/50" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="1.5" d="M9.75 17L9 20l-2-1V6a2 2 0 012-2h8a2 2 0 012 2v10.5M15 17h-5m5 0a3 3 0 01-6 0m6 0h.01"></path></svg>
-                          <p>Gráfico de Remisión de Síntomas</p>
-                          <p className="text-sm text-muted-foreground/80 mt-1">Análisis de biomarcadores clave.</p>
-                      </div>
+                      {teamImage && (
+                        <Image
+                          src={teamImage.imageUrl}
+                          alt={teamImage.description}
+                          width={600}
+                          height={400}
+                          data-ai-hint={teamImage.imageHint}
+                          className="rounded-lg object-cover"
+                        />
+                      )}
                   </div>
               </div>
           </section>
