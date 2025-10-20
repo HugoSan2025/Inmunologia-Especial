@@ -1,0 +1,380 @@
+[
+ {
+  "PRUEBA": "17 OH progesterona",
+  "DIA DE PROCESO": "Martes-Jueves-Sabado",
+  "HORA DE CORTE": "9 am",
+  "HORA DE REPORTE": "5 pm"
+ },
+ {
+  "PRUEBA": "Aglutinacioines en lamina",
+  "DIA DE PROCESO": "Lunes a Sabado",
+  "HORA DE CORTE": "N/A",
+  "HORA DE REPORTE": "Durante el dia"
+ },
+ {
+  "PRUEBA": "ANA",
+  "DIA DE PROCESO": "Lunes a Sabado",
+  "HORA DE CORTE": "9 am",
+  "HORA DE REPORTE": "5 pm"
+ },
+ {
+  "PRUEBA": "ANCA",
+  "DIA DE PROCESO": "Lunes a Sabado",
+  "HORA DE CORTE": "9 am",
+  "HORA DE REPORTE": "5 pm"
+ },
+ {
+  "PRUEBA": "Androstenediona",
+  "DIA DE PROCESO": "Martes-Jueves-Sabado",
+  "HORA DE CORTE": "9 am",
+  "HORA DE REPORTE": "5 pm"
+ },
+ {
+  "PRUEBA": "Anti CCP IgG",
+  "DIA DE PROCESO": "Lunes a Sabado",
+  "HORA DE CORTE": "N/A",
+  "HORA DE REPORTE": "Durante el dia"
+ },
+ {
+  "PRUEBA": "Anti DNA ds",
+  "DIA DE PROCESO": "Lunes-Miercoles-Viernes",
+  "HORA DE CORTE": "9 am",
+  "HORA DE REPORTE": "5 pm"
+ },
+ {
+  "PRUEBA": "Anti DNA ss",
+  "DIA DE PROCESO": "Viernes",
+  "HORA DE CORTE": "9 am",
+  "HORA DE REPORTE": "5 pm"
+ },
+ {
+  "PRUEBA": "Anti SCL 70",
+  "DIA DE PROCESO": "Jueves",
+  "HORA DE CORTE": "9 am",
+  "HORA DE REPORTE": "5 pm"
+ },
+ {
+  "PRUEBA": "Anti SSA SSB Smith",
+  "DIA DE PROCESO": "Martes y Sabado",
+  "HORA DE CORTE": "9 am",
+  "HORA DE REPORTE": "5 pm"
+ },
+ {
+  "PRUEBA": "Anti RNP",
+  "DIA DE PROCESO": "Jueves",
+  "HORA DE CORTE": "9 am",
+  "HORA DE REPORTE": "5 pm"
+ },
+ {
+  "PRUEBA": "Anti transglutaminasa",
+  "DIA DE PROCESO": "Miercoles",
+  "HORA DE CORTE": "9 am",
+  "HORA DE REPORTE": "5 pm"
+ },
+ {
+  "PRUEBA": "Antifosfolipidos IgG IgM",
+  "DIA DE PROCESO": "Sabado",
+  "HORA DE CORTE": "1 pm",
+  "HORA DE REPORTE": "6 pm"
+ },
+ {
+  "PRUEBA": "Betaglicoproteina IgG IgM",
+  "DIA DE PROCESO": "Martes y Jueves",
+  "HORA DE CORTE": "9 am",
+  "HORA DE REPORTE": "5 pm"
+ },
+ {
+  "PRUEBA": "Calculos urinarios biliares",
+  "DIA DE PROCESO": "Lunes a Sabado",
+  "HORA DE CORTE": "1 pm",
+  "HORA DE REPORTE": "6 pm"
+ },
+ {
+  "PRUEBA": "Calproctetina",
+  "DIA DE PROCESO": "Lunes a Sabado",
+  "HORA DE CORTE": "N/A",
+  "HORA DE REPORTE": "Durante el dia"
+ },
+ {
+  "PRUEBA": "Cardiolipina IgG IgM",
+  "DIA DE PROCESO": "Lunes-Miercoles-Viernes",
+  "HORA DE CORTE": "9 am",
+  "HORA DE REPORTE": "5 pm"
+ },
+ {
+  "PRUEBA": "Centromero",
+  "DIA DE PROCESO": "Lunes a Sabado",
+  "HORA DE CORTE": "9 am",
+  "HORA DE REPORTE": "5 pm"
+ },
+ {
+  "PRUEBA": "Chagas",
+  "DIA DE PROCESO": "Lunes a Sabado",
+  "HORA DE CORTE": "1 pm",
+  "HORA DE REPORTE": "6 pm"
+ },
+ {
+  "PRUEBA": "Cisticercus Western Blot",
+  "DIA DE PROCESO": "Lunes-Miercoles-Viernes",
+  "HORA DE CORTE": "1 pm",
+  "HORA DE REPORTE": "6 pm"
+ },
+ {
+  "PRUEBA": "Citomegalovirus IgG IGM",
+  "DIA DE PROCESO": "Lunes a Sabado",
+  "HORA DE CORTE": "N/A",
+  "HORA DE REPORTE": "Durante el dia"
+ },
+ {
+  "PRUEBA": "Clamidia trachomatis IgG",
+  "DIA DE PROCESO": "Lunes-Miercoles-Viernes",
+  "HORA DE CORTE": "9 am",
+  "HORA DE REPORTE": "5 pm"
+ },
+ {
+  "PRUEBA": "Clamidia trachomatis IgM",
+  "DIA DE PROCESO": "Lunes a Sabado",
+  "HORA DE CORTE": "9 am",
+  "HORA DE REPORTE": "5 pm"
+ },
+ {
+  "PRUEBA": "Dengue Elisa IgM",
+  "DIA DE PROCESO": "Lunes a Sabado",
+  "HORA DE CORTE": "9 am",
+  "HORA DE REPORTE": "5 pm"
+ },
+ {
+  "PRUEBA": "Dengue Elisa IgG",
+  "DIA DE PROCESO": "Lunes a Sabado",
+  "HORA DE CORTE": "9 am",
+  "HORA DE REPORTE": "5 pm"
+ },
+ {
+  "PRUEBA": "Dihidrotestoterona",
+  "DIA DE PROCESO": "Martes-Jueves-Sabado",
+  "HORA DE CORTE": "9 am",
+  "HORA DE REPORTE": "5 pm"
+ },
+ {
+  "PRUEBA": "Elastasa",
+  "DIA DE PROCESO": "Lunes a Sabado",
+  "HORA DE CORTE": "N/A",
+  "HORA DE REPORTE": "Durante el dia"
+ },
+ {
+  "PRUEBA": "Epstein Barr VCA IgG IgM",
+  "DIA DE PROCESO": "Martes-Jueves-Sabado",
+  "HORA DE CORTE": "9 am",
+  "HORA DE REPORTE": "5 pm"
+ },
+ {
+  "PRUEBA": "Epsterin Barr EBNA IgG",
+  "DIA DE PROCESO": "Martes-Jueves-Sabado",
+  "HORA DE CORTE": "9 am",
+  "HORA DE REPORTE": "5 pm"
+ },
+ {
+  "PRUEBA": "Epsterin Barr EBNA IgM",
+  "DIA DE PROCESO": "Lunes-Miercoles-Viernes",
+  "HORA DE CORTE": "9 am",
+  "HORA DE REPORTE": "5 pm"
+ },
+ {
+  "PRUEBA": "Fasciola Wester Blot",
+  "DIA DE PROCESO": "Lunes-Miercoles-Viernes",
+  "HORA DE CORTE": "1 pm",
+  "HORA DE REPORTE": "6 pm"
+ },
+ {
+  "PRUEBA": "FTA IgG.",
+  "DIA DE PROCESO": "Lunes a Sabado",
+  "HORA DE CORTE": "9 am",
+  "HORA DE REPORTE": "5 pm"
+ },
+ {
+  "PRUEBA": "FTA IgM",
+  "DIA DE PROCESO": "Miercoles",
+  "HORA DE CORTE": "9 am",
+  "HORA DE REPORTE": "5 pm"
+ },
+ {
+  "PRUEBA": "Helicobacter pylori IgG",
+  "DIA DE PROCESO": "Lunes a Sabado",
+  "HORA DE CORTE": "N/A",
+  "HORA DE REPORTE": "Durante el dia"
+ },
+ {
+  "PRUEBA": "Helicobacter pylori IgM",
+  "DIA DE PROCESO": "Lunes a Sabado",
+  "HORA DE CORTE": "9 am",
+  "HORA DE REPORTE": "5 pm"
+ },
+ {
+  "PRUEBA": "Herpes 1 y 2 IgG IgM",
+  "DIA DE PROCESO": "Lunes a Sabado",
+  "HORA DE CORTE": "N/A",
+  "HORA DE REPORTE": "Durante el dia"
+ },
+ {
+  "PRUEBA": "Hidatidosis Western Blot",
+  "DIA DE PROCESO": "Lunes-Miercoles-Viernes",
+  "HORA DE CORTE": "1 pm",
+  "HORA DE REPORTE": "6 pm"
+ },
+ {
+  "PRUEBA": "HIV Western Blot",
+  "DIA DE PROCESO": "Lunes a Viernes",
+  "HORA DE CORTE": "5 pm",
+  "HORA DE REPORTE": "Al dia sgte 5 pm"
+ },
+ {
+  "PRUEBA": "HTLV EIA",
+  "DIA DE PROCESO": "Lunes a Sabado",
+  "HORA DE CORTE": "1 pm",
+  "HORA DE REPORTE": "6 pm"
+ },
+ {
+  "PRUEBA": "IFI viral",
+  "DIA DE PROCESO": "Lunes a Sabado",
+  "HORA DE CORTE": "1 pm",
+  "HORA DE REPORTE": "6 pm"
+ },
+ {
+  "PRUEBA": "Inmunofijacion suero orina",
+  "DIA DE PROCESO": "Martes y Jueves",
+  "HORA DE CORTE": "9 am",
+  "HORA DE REPORTE": "5 pm"
+ },
+ {
+  "PRUEBA": "Micoplasma pneunoniae IgG IgM",
+  "DIA DE PROCESO": "Lunes",
+  "HORA DE CORTE": "9 am",
+  "HORA DE REPORTE": "5 pm"
+ },
+ {
+  "PRUEBA": "Mitocondrial",
+  "DIA DE PROCESO": "Jueves",
+  "HORA DE CORTE": "9 am",
+  "HORA DE REPORTE": "5 pm"
+ },
+ {
+  "PRUEBA": "Musculo liso",
+  "DIA DE PROCESO": "Lunes a Sabado",
+  "HORA DE CORTE": "9 am",
+  "HORA DE REPORTE": "5 pm"
+ },
+ {
+  "PRUEBA": "Panel de alergia",
+  "DIA DE PROCESO": "Lunes a Sabado",
+  "HORA DE CORTE": "1 pm",
+  "HORA DE REPORTE": "7 pm"
+ },
+ {
+  "PRUEBA": "Panel de drogas",
+  "DIA DE PROCESO": "Lunes a Sabado",
+  "HORA DE CORTE": "N/A",
+  "HORA DE REPORTE": "Durante el dia"
+ },
+ {
+  "PRUEBA": "Peptido C",
+  "DIA DE PROCESO": "Martes-Jueves-Sabado",
+  "HORA DE CORTE": "N/A",
+  "HORA DE REPORTE": "Durante el dia"
+ },
+ {
+  "PRUEBA": "Perfil ENA",
+  "DIA DE PROCESO": "Lunes a Sabado",
+  "HORA DE CORTE": "9 am",
+  "HORA DE REPORTE": "5 pm"
+ },
+ {
+  "PRUEBA": "Pregnosrticon",
+  "DIA DE PROCESO": "Lunes a Sabado",
+  "HORA DE CORTE": "N/A",
+  "HORA DE REPORTE": "Durante el dia"
+ },
+ {
+  "PRUEBA": "Proteinograma suero",
+  "DIA DE PROCESO": "Martes y Jueves",
+  "HORA DE CORTE": "9 am",
+  "HORA DE REPORTE": "5 pm"
+ },
+ {
+  "PRUEBA": "Quantiferon",
+  "DIA DE PROCESO": "Lunes a Sabado",
+  "HORA DE CORTE": "9 am",
+  "HORA DE REPORTE": "5 pm"
+ },
+ {
+  "PRUEBA": "Rosa de Bengala",
+  "DIA DE PROCESO": "Lunes a Sabado",
+  "HORA DE CORTE": "N/A",
+  "HORA DE REPORTE": "Durante el dia"
+ },
+ {
+  "PRUEBA": "RPR - VDRL",
+  "DIA DE PROCESO": "Lunes a Sabado",
+  "HORA DE CORTE": "N/A",
+  "HORA DE REPORTE": "Durante el dia"
+ },
+ {
+  "PRUEBA": "Rubeola IgG IGM",
+  "DIA DE PROCESO": "Lunes a Sabado",
+  "HORA DE CORTE": "N/A",
+  "HORA DE REPORTE": "Durante el dia"
+ },
+ {
+  "PRUEBA": "Sifilis",
+  "DIA DE PROCESO": "Lunes a Sabado",
+  "HORA DE CORTE": "1 pm",
+  "HORA DE REPORTE": "6 pm"
+ },
+ {
+  "PRUEBA": "Tamizaje Neonatal",
+  "DIA DE PROCESO": "Viernes inicia Sabado termina",
+  "HORA DE CORTE": "9 am",
+  "HORA DE REPORTE": "Al dia sgte 6 pm"
+ },
+ {
+  "PRUEBA": "Testosterona Libre",
+  "DIA DE PROCESO": "Lunes a Sabado",
+  "HORA DE CORTE": "N/A",
+  "HORA DE REPORTE": "Durante el dia"
+ },
+ {
+  "PRUEBA": "Toxoplasma IgG IgM",
+  "DIA DE PROCESO": "Lunes a Sabado",
+  "HORA DE CORTE": "N/A",
+  "HORA DE REPORTE": "Durante el dia"
+ },
+ {
+  "PRUEBA": "Varicela IgG",
+  "DIA DE PROCESO": "Jueves",
+  "HORA DE CORTE": "9 am",
+  "HORA DE REPORTE": "5 pm"
+ },
+ {
+  "PRUEBA": "Varicela IgM",
+  "DIA DE PROCESO": "Lunes",
+  "HORA DE CORTE": "9 am",
+  "HORA DE REPORTE": "5 pm"
+ },
+ {
+  "PRUEBA": "Vitamina D (25-OH Hidroxivitamina)",
+  "DIA DE PROCESO": "Lunes a Sabado",
+  "HORA DE CORTE": "N/A",
+  "HORA DE REPORTE": "Durante el dia"
+ },
+ {
+  "PRUEBA": "Vitamina D (1,25 OH)",
+  "DIA DE PROCESO": "Miercoles",
+  "HORA DE CORTE": "N/A",
+  "HORA DE REPORTE": "Durante el dia"
+ },
+ {
+  "PRUEBA": "Waller Rose - Paul Bunnel",
+  "DIA DE PROCESO": "Lunes a Sabado",
+  "HORA DE CORTE": "N/A",
+  "HORA DE REPORTE": "Durante el dia"
+ }
+]

@@ -2,6 +2,7 @@
 import { useState, useEffect } from 'react';
 import Image from 'next/image';
 import { PlaceHolderImages } from '@/lib/placeholder-images';
+import studios from '@/lib/studios.json';
 
 const phrases = [
   "El éxito no es final, el fracaso no es fatal: es el coraje de continuar lo que cuenta.",
@@ -12,6 +13,13 @@ const phrases = [
   "La simplicidad es la máxima sofisticación. — Leonardo da Vinci",
   "Diseña para las personas, no para la tecnología."
 ];
+
+interface Studio {
+  "PRUEBA": string;
+  "DIA DE PROCESO": string;
+  "HORA DE CORTE": string;
+  "HORA DE REPORTE": string;
+}
 
 const MotivationalPhrase = () => {
   const [phrase, setPhrase] = useState('');
@@ -57,6 +65,21 @@ const MotivationalPhrase = () => {
 
 export default function Home() {
   const teamImage = PlaceHolderImages.find(p => p.id === "equipo-ide");
+  const [searchQuery, setSearchQuery] = useState('');
+  const [searchResults, setSearchResults] = useState<Studio[]>([]);
+
+  useEffect(() => {
+    if (searchQuery.trim() === '') {
+      setSearchResults([]);
+      return;
+    }
+
+    const filtered = studios.filter(studio =>
+      studio.PRUEBA.toLowerCase().includes(searchQuery.toLowerCase())
+    );
+    setSearchResults(filtered);
+  }, [searchQuery]);
+
 
   return (
     <>
@@ -141,16 +164,17 @@ export default function Home() {
                           En Inmunología Especial, cada resultado es fruto del trabajo en equipo, no solo procesamos muestras, procesamos confianza. Detrás de cada diagnóstico, hay un profesional de Inmunología Especial.
                       </p>
                   </div>
-                  <div className="relative hidden lg:block rounded-xl overflow-hidden border border-gray-200 h-full min-h-[400px]">
-                      {teamImage && (
-                        <Image
-                          src={teamImage.imageUrl}
-                          alt={teamImage.description}
-                          fill
-                          data-ai-hint={teamImage.imageHint}
-                          className="object-cover"
-                        />
-                      )}
+                  <div className="relative h-full min-h-[400px] overflow-hidden rounded-xl border border-gray-200">
+                    {teamImage && (
+                      <Image
+                        src={teamImage.imageUrl}
+                        alt={teamImage.description}
+                        fill
+                        data-ai-hint={teamImage.imageHint}
+                        className="object-cover"
+                        sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
+                      />
+                    )}
                   </div>
               </div>
           </section>
@@ -164,19 +188,38 @@ export default function Home() {
               <p className="text-xl text-text-muted-dark mb-10 max-w-3xl mx-auto">
                   Acceda a información detallada sobre nuestros tiempos de respuesta y programación de muestras.
               </p>
-              <form className="flex max-w-xl mx-auto shadow-2xl shadow-accent-pastel/20 rounded-xl overflow-hidden mb-12 transform transition duration-300 hover:scale-[1.01]">
-                  <input type="search" placeholder="Buscar tiempo de entrega o protocolo..." className="w-full p-5 text-lg text-text-dark-main border-none focus:outline-none focus:ring-4 focus:ring-accent-pastel/30 bg-card-bg" aria-label="Buscar servicio o caso"/>
+              <form className="flex max-w-xl mx-auto shadow-2xl shadow-accent-pastel/20 rounded-xl overflow-hidden mb-12 transform transition duration-300 hover:scale-[1.01]" onSubmit={(e) => e.preventDefault()}>
+                  <input 
+                    type="search" 
+                    placeholder="Buscar tiempo de entrega o protocolo..." 
+                    className="w-full p-5 text-lg text-text-dark-main border-none focus:outline-none focus:ring-4 focus:ring-accent-pastel/30 bg-card-bg" 
+                    aria-label="Buscar servicio o caso"
+                    value={searchQuery}
+                    onChange={(e) => setSearchQuery(e.target.value)}
+                  />
                   <button type="submit" className="bg-accent-pastel text-card-bg p-5 text-lg font-bold hover:bg-opacity-90 transition duration-200">
                       <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"></path></svg>
                   </button>
               </form>
               <div id="search-results-placeholder" className="min-h-[200px] w-full max-w-xl mx-auto bg-card-bg border border-gray-100 p-6 rounded-xl text-left shadow-lg text-text-muted-dark">
-                  <p className="text-lg font-semibold text-text-dark-main mb-2">Resultados de Búsqueda:</p>
-                  <ul className="list-disc pl-5 space-y-2">
-                      <li className="hover:text-accent-pastel transition">Los resultados de su búsqueda aparecerán aquí. (Ej: Tiempo de entrega perfil IgG)</li>
-                      <li className="hover:text-accent-pastel transition">Utilice palabras clave como 'Corte', 'Entrega' o 'Reporte'.</li>
-                      <li className="hover:text-accent-pastel transition">Actualmente, esta es una función de demostración.</li>
-                  </ul>
+                  <p className="text-lg font-semibold text-text-dark-main mb-4">Resultados de Búsqueda:</p>
+                  {searchQuery.trim() !== '' && searchResults.length === 0 ? (
+                    <p>No se encontraron resultados para "{searchQuery}".</p>
+                  ) : (
+                    <ul className="space-y-4">
+                      {searchResults.map((studio, index) => (
+                        <li key={index} className="p-4 bg-page-bg rounded-lg border border-gray-200">
+                          <p className="font-bold text-text-dark-main text-lg">{studio.PRUEBA}</p>
+                          <p><span className="font-semibold">Día de Proceso:</span> {studio["DIA DE PROCESO"]}</p>
+                          <p><span className="font-semibold">Hora de Corte:</span> {studio["HORA DE CORTE"]}</p>
+                          <p><span className="font-semibold">Hora de Reporte:</span> {studio["HORA DE REPORTE"]}</p>
+                        </li>
+                      ))}
+                      {searchQuery.trim() === '' && (
+                        <p>Los resultados de su búsqueda aparecerán aquí.</p>
+                      )}
+                    </ul>
+                  )}
               </div>
           </section>
       </main>
