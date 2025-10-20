@@ -17,22 +17,37 @@ const MotivationalPhrase = () => {
   const [phrase, setPhrase] = useState('');
 
   const displayRandomPhrase = () => {
-    const phraseElement = document.getElementById('motivational-phrase');
-    if (phraseElement) {
-        phraseElement.style.opacity = '0';
-        setTimeout(() => {
-            const randomIndex = Math.floor(Math.random() * phrases.length);
-            setPhrase(phrases[randomIndex]);
-            phraseElement.style.opacity = '1';
-            phraseElement.classList.add('phrase-animate');
-            setTimeout(() => phraseElement.classList.remove('phrase-animate'), 800);
-        }, 300);
-    }
+    const randomIndex = Math.floor(Math.random() * phrases.length);
+    setPhrase(phrases[randomIndex]);
   };
 
   useEffect(() => {
-    displayRandomPhrase();
-    const interval = setInterval(displayRandomPhrase, 60000);
+    const phraseElement = document.getElementById('motivational-phrase');
+    if (phraseElement) {
+        phraseElement.classList.remove('phrase-animate');
+        phraseElement.style.opacity = '0';
+        setTimeout(() => {
+            displayRandomPhrase();
+            phraseElement.style.opacity = '1';
+            phraseElement.classList.add('phrase-animate');
+        }, 300);
+    } else {
+      displayRandomPhrase();
+    }
+
+    const interval = setInterval(() => {
+      const phraseElement = document.getElementById('motivational-phrase');
+      if (phraseElement) {
+          phraseElement.style.opacity = '0';
+          setTimeout(() => {
+              displayRandomPhrase();
+              phraseElement.style.opacity = '1';
+              phraseElement.classList.add('phrase-animate');
+              setTimeout(() => phraseElement.classList.remove('phrase-animate'), 800);
+          }, 300);
+      }
+    }, 60000);
+
     return () => clearInterval(interval);
   }, []);
 
@@ -43,7 +58,19 @@ const MotivationalPhrase = () => {
         <p id="motivational-phrase" className="text-3xl font-semibold italic text-text-dark-main h-20 flex items-center justify-center transition-opacity duration-700">
           {phrase}
         </p>
-        <button onClick={displayRandomPhrase} className="mt-4 text-sm font-semibold text-text-muted-dark hover:text-accent-pastel transition duration-200 focus:outline-none">
+        <button onClick={() => {
+          const phraseElement = document.getElementById('motivational-phrase');
+          if (phraseElement) {
+            phraseElement.style.opacity = '0';
+            setTimeout(() => {
+                const randomIndex = Math.floor(Math.random() * phrases.length);
+                setPhrase(phrases[randomIndex]);
+                phraseElement.style.opacity = '1';
+                phraseElement.classList.add('phrase-animate');
+                setTimeout(() => phraseElement.classList.remove('phrase-animate'), 800);
+            }, 300);
+          }
+        }} className="mt-4 text-sm font-semibold text-text-muted-dark hover:text-accent-pastel transition duration-200 focus:outline-none">
           Ver otra frase
         </button>
       </div>
