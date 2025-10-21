@@ -171,7 +171,7 @@ export default function Home() {
                         alt={teamImage.description}
                         fill
                         data-ai-hint={teamImage.imageHint}
-                        className="object-cover"
+                        className="object-contain lg:object-cover"
                         sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
                       />
                     )}
