@@ -185,7 +185,7 @@ export default function Home() {
                   Buscar en el sitio
               </h2>
               <p className="text-xl text-text-muted-dark mb-10 max-w-3xl mx-auto">
-                  Utilice nuestro buscador para encontrar información sobre nuestros servicios y tiempos de entrega.
+                  Utilice nuestro buscador para encontrar información sobre nuestros servicios.
               </p>
               <form className="flex max-w-xl mx-auto shadow-2xl shadow-accent-pastel/20 rounded-xl overflow-hidden mb-12 transform transition duration-300 hover:scale-[1.01]" onSubmit={(e) => e.preventDefault()}>
                   <input 
@@ -200,7 +200,7 @@ export default function Home() {
                       <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"></path></svg>
                   </button>
               </form>
-              <div id="search-results-placeholder" className="min-h-[200px] w-full max-w-xl mx-auto bg-card-bg border border-gray-100 p-6 rounded-xl text-left shadow-lg text-text-muted-dark">
+              <div id="search-results-placeholder" className="min-h-[200px] w-full max-w-xl mx-auto bg-card-bg border-2 border-accent-pastel p-6 rounded-xl text-left shadow-lg text-text-muted-dark">
                   <p className="text-lg font-semibold text-text-dark-main mb-4">Resultados de Búsqueda:</p>
                   {searchQuery.trim() !== '' && searchResults.length === 0 ? (
                     <p>No se encontraron resultados para "{searchQuery}".</p>
@@ -246,3 +246,5 @@ export default function Home() {
     </>
   );
 }
+
+    
