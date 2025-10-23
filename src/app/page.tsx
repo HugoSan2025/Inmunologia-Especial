@@ -172,7 +172,6 @@ export default function Home() {
                         fill
                         data-ai-hint={teamImage.imageHint}
                         className="object-contain lg:object-cover"
-                        sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
                       />
                     )}
                   </div>
@@ -183,10 +182,10 @@ export default function Home() {
 
           <section id="contacto" className="py-20 md:py-32 max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
               <h2 className="text-4xl sm:text-5xl font-extrabold mb-6 text-text-dark-main">
-                  Días de procesos, horas de corte y horas de reporte
+                  Buscar en el sitio
               </h2>
               <p className="text-xl text-text-muted-dark mb-10 max-w-3xl mx-auto">
-                  Acceda a información detallada sobre nuestros tiempos de respuesta y programación de muestras.
+                  Utilice nuestro buscador para encontrar información sobre nuestros servicios y tiempos de entrega.
               </p>
               <form className="flex max-w-xl mx-auto shadow-2xl shadow-accent-pastel/20 rounded-xl overflow-hidden mb-12 transform transition duration-300 hover:scale-[1.01]" onSubmit={(e) => e.preventDefault()}>
                   <input 
