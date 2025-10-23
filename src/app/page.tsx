@@ -171,7 +171,7 @@ export default function Home() {
                         alt={teamImage.description}
                         fill
                         data-ai-hint={teamImage.imageHint}
-                        className="object-cover lg:object-cover"
+                        className="object-contain md:object-cover"
                       />
                     )}
                   </div>
@@ -201,26 +201,25 @@ export default function Home() {
                       <span>Buscar</span>
                   </button>
               </form>
-              <div id="search-results-placeholder" className="min-h-[200px] w-full max-w-xl mx-auto bg-card-bg border-2 border-accent-pastel p-6 rounded-xl text-left shadow-lg text-text-muted-dark">
-                  <p className="text-lg font-semibold text-text-dark-main mb-4">Resultados de Búsqueda:</p>
-                  {searchQuery.trim() !== '' && searchResults.length === 0 ? (
-                    <p>No se encontraron resultados para "{searchQuery}".</p>
-                  ) : (
-                    <ul className="space-y-4">
-                      {searchResults.map((studio, index) => (
-                        <li key={index} className="p-4 bg-page-bg rounded-lg border border-gray-200">
-                          <p className="font-bold text-text-dark-main text-lg">{studio.PRUEBA}</p>
-                          <p><span className="font-semibold">Día de Proceso:</span> {studio["DIA DE PROCESO"]}</p>
-                          <p><span className="font-semibold">Hora de Corte:</span> {studio["HORA DE CORTE"]}</p>
-                          <p><span className="font-semibold">Hora de Reporte:</span> {studio["HORA DE REPORTE"]}</p>
-                        </li>
-                      ))}
-                      {searchQuery.trim() === '' && (
-                        <p>Los resultados de su búsqueda aparecerán aquí.</p>
-                      )}
-                    </ul>
-                  )}
-              </div>
+              {searchQuery.trim() !== '' && (
+                <div id="search-results-placeholder" className="min-h-[200px] w-full max-w-xl mx-auto bg-card-bg border-2 border-accent-pastel p-6 rounded-xl text-left shadow-lg text-text-muted-dark">
+                    <p className="text-lg font-semibold text-text-dark-main mb-4">Resultados de Búsqueda:</p>
+                    {searchResults.length === 0 ? (
+                      <p>No se encontraron resultados para "{searchQuery}".</p>
+                    ) : (
+                      <ul className="space-y-4">
+                        {searchResults.map((studio, index) => (
+                          <li key={index} className="p-4 bg-page-bg rounded-lg border border-gray-200">
+                            <p className="font-bold text-text-dark-main text-lg">{studio.PRUEBA}</p>
+                            <p><span className="font-semibold">Día de Proceso:</span> {studio["DIA DE PROCESO"]}</p>
+                            <p><span className="font-semibold">Hora de Corte:</span> {studio["HORA DE CORTE"]}</p>
+                            <p><span className="font-semibold">Hora de Reporte:</span> {studio["HORA DE REPORTE"]}</p>
+                          </li>
+                        ))}
+                      </ul>
+                    )}
+                </div>
+              )}
           </section>
       </main>
 
