@@ -171,7 +171,7 @@ export default function Home() {
                         alt={teamImage.description}
                         fill
                         data-ai-hint={teamImage.imageHint}
-                        className="object-contain lg:object-cover"
+                        className="object-cover lg:object-cover"
                       />
                     )}
                   </div>
@@ -187,11 +187,11 @@ export default function Home() {
               <p className="text-xl text-text-muted-dark mb-10 max-w-3xl mx-auto">
                   Utilice nuestro buscador para encontrar información sobre nuestros servicios.
               </p>
-              <form className="flex max-w-xl mx-auto shadow-[0_4px_16px_rgba(139,133,232,0.4)] rounded-full overflow-hidden mb-12 transform transition duration-300 hover:scale-[1.01]" onSubmit={(e) => e.preventDefault()}>
+              <form className="flex max-w-xl mx-auto shadow-[0_8px_24px_rgba(139,133,232,0.5)] rounded-full overflow-hidden mb-12 transform transition duration-300 hover:scale-[1.01]" onSubmit={(e) => e.preventDefault()}>
                   <input 
                     type="search" 
                     placeholder="Buscar tiempo de entrega o protocolo..." 
-                    className="w-full pl-6 pr-4 py-4 text-lg text-text-dark-main border-none focus:outline-none focus:ring-4 focus:ring-accent-pastel/30 bg-card-bg" 
+                    className="w-full pl-6 pr-4 py-4 text-lg text-text-dark-main border-none focus:outline-none focus:ring-2 focus:ring-inset focus:ring-gray-200 bg-card-bg" 
                     aria-label="Buscar servicio o caso"
                     value={searchQuery}
                     onChange={(e) => setSearchQuery(e.target.value)}
