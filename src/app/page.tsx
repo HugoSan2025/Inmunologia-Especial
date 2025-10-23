@@ -187,17 +187,18 @@ export default function Home() {
               <p className="text-xl text-text-muted-dark mb-10 max-w-3xl mx-auto">
                   Utilice nuestro buscador para encontrar información sobre nuestros servicios.
               </p>
-              <form className="flex max-w-xl mx-auto shadow-2xl shadow-accent-pastel/20 rounded-xl overflow-hidden mb-12 transform transition duration-300 hover:scale-[1.01]" onSubmit={(e) => e.preventDefault()}>
+              <form className="flex max-w-xl mx-auto shadow-[0_4px_16px_rgba(139,133,232,0.4)] rounded-full overflow-hidden mb-12 transform transition duration-300 hover:scale-[1.01]" onSubmit={(e) => e.preventDefault()}>
                   <input 
                     type="search" 
                     placeholder="Buscar tiempo de entrega o protocolo..." 
-                    className="w-full p-5 text-lg text-text-dark-main border-none focus:outline-none focus:ring-4 focus:ring-accent-pastel/30 bg-card-bg" 
+                    className="w-full pl-6 pr-4 py-4 text-lg text-text-dark-main border-none focus:outline-none focus:ring-4 focus:ring-accent-pastel/30 bg-card-bg" 
                     aria-label="Buscar servicio o caso"
                     value={searchQuery}
                     onChange={(e) => setSearchQuery(e.target.value)}
                   />
-                  <button type="submit" className="bg-accent-pastel text-card-bg p-5 text-lg font-bold hover:bg-opacity-90 transition duration-200">
-                      <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"></path></svg>
+                  <button type="submit" className="bg-accent-pastel text-card-bg px-6 text-lg font-bold hover:bg-opacity-90 transition duration-200 flex items-center gap-2">
+                      <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"></path></svg>
+                      <span>Buscar</span>
                   </button>
               </form>
               <div id="search-results-placeholder" className="min-h-[200px] w-full max-w-xl mx-auto bg-card-bg border-2 border-accent-pastel p-6 rounded-xl text-left shadow-lg text-text-muted-dark">
@@ -246,5 +247,3 @@ export default function Home() {
     </>
   );
 }
-
-    
