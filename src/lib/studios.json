@@ -1,380 +1,843 @@
+
 [
  {
   "PRUEBA": "17 OH progesterona",
   "DIA DE PROCESO": "Martes-Jueves-Sabado",
   "HORA DE CORTE": "9 am",
-  "HORA DE REPORTE": "5 pm"
+  "HORA DE REPORTE": "5 pm",
+  "CODIGO SIGLAB": "P176 "
+ },
+ {
+  "PRUEBA": "17 OH progesterona INSN",
+  "DIA DE PROCESO": "Martes-Jueves-Sabado",
+  "HORA DE CORTE": "9 am",
+  "HORA DE REPORTE": "5 pm",
+  "CODIGO SIGLAB": 83498
  },
  {
   "PRUEBA": "Aglutinacioines en lamina",
   "DIA DE PROCESO": "Lunes a Sabado",
   "HORA DE CORTE": "N/A",
-  "HORA DE REPORTE": "Durante el dia"
+  "HORA DE REPORTE": "Durante el dia",
+  "CODIGO SIGLAB": "I051  "
  },
  {
-  "PRUEBA": "ANA",
+  "PRUEBA": "Aglutinacion paratifico A",
   "DIA DE PROCESO": "Lunes a Sabado",
-  "HORA DE CORTE": "9 am",
-  "HORA DE REPORTE": "5 pm"
+  "HORA DE CORTE": "N/A",
+  "HORA DE REPORTE": "Durante el dia",
+  "CODIGO SIGLAB": "I0503 "
  },
  {
-  "PRUEBA": "ANCA",
+  "PRUEBA": "Aglutinacion paratifico B",
+  "DIA DE PROCESO": "Lunes a Sabado",
+  "HORA DE CORTE": "N/A",
+  "HORA DE REPORTE": "Durante el dia",
+  "CODIGO SIGLAB": "I0504 "
+ },
+ {
+  "PRUEBA": "Aglutinacion Tifico H",
+  "DIA DE PROCESO": "Lunes a Sabado",
+  "HORA DE CORTE": "N/A",
+  "HORA DE REPORTE": "Durante el dia",
+  "CODIGO SIGLAB": "I0501 "
+ },
+ {
+  "PRUEBA": "Aglutinacion Tifico O",
+  "DIA DE PROCESO": "Lunes a Sabado",
+  "HORA DE CORTE": "N/A",
+  "HORA DE REPORTE": "Durante el dia",
+  "CODIGO SIGLAB": "I0502 "
+ },
+ {
+  "PRUEBA": "ANA Anticuerpos Antinucleres",
   "DIA DE PROCESO": "Lunes a Sabado",
   "HORA DE CORTE": "9 am",
-  "HORA DE REPORTE": "5 pm"
+  "HORA DE REPORTE": "5 pm",
+  "CODIGO SIGLAB": "A191  "
+ },
+ {
+  "PRUEBA": "ANA Anticuerpos Antinucleres INSN",
+  "DIA DE PROCESO": "Lunes a Sabado",
+  "HORA DE CORTE": "9 am",
+  "HORA DE REPORTE": "5 pm",
+  "CODIGO SIGLAB": "86038 "
+ },
+ {
+  "PRUEBA": "ANCA Anticuerpos Anti Neutrofilo",
+  "DIA DE PROCESO": "Lunes a Sabado",
+  "HORA DE CORTE": "9 am",
+  "HORA DE REPORTE": "5 pm",
+  "CODIGO SIGLAB": "A249  "
+ },
+ {
+  "PRUEBA": "ANCA Anticuerpos Anti Neutrofilo INSN",
+  "DIA DE PROCESO": "Lunes a Sabado",
+  "HORA DE CORTE": "9 am",
+  "HORA DE REPORTE": "5 pm",
+  "CODIGO SIGLAB": "86021 "
  },
  {
   "PRUEBA": "Androstenediona",
   "DIA DE PROCESO": "Martes-Jueves-Sabado",
   "HORA DE CORTE": "9 am",
-  "HORA DE REPORTE": "5 pm"
+  "HORA DE REPORTE": "5 pm",
+  "CODIGO SIGLAB": "P157  "
  },
  {
   "PRUEBA": "Anti CCP IgG",
   "DIA DE PROCESO": "Lunes a Sabado",
   "HORA DE CORTE": "N/A",
-  "HORA DE REPORTE": "Durante el dia"
+  "HORA DE REPORTE": "Durante el dia",
+  "CODIGO SIGLAB": "A274  "
  },
  {
-  "PRUEBA": "Anti DNA ds",
+  "PRUEBA": "Anticuerpos heterofilos",
+  "DIA DE PROCESO": "Lunes a Sabado",
+  "HORA DE CORTE": "N/A",
+  "HORA DE REPORTE": "Durante el dia",
+  "CODIGO SIGLAB": "I093  "
+ },
+ {
+  "PRUEBA": "Anti DNA ds Cadena doble",
   "DIA DE PROCESO": "Lunes-Miercoles-Viernes",
   "HORA DE CORTE": "9 am",
-  "HORA DE REPORTE": "5 pm"
+  "HORA DE REPORTE": "5 pm",
+  "CODIGO SIGLAB": "A193  "
  },
  {
-  "PRUEBA": "Anti DNA ss",
+  "PRUEBA": "Anti DNA ss Cadena simple",
   "DIA DE PROCESO": "Viernes",
   "HORA DE CORTE": "9 am",
-  "HORA DE REPORTE": "5 pm"
+  "HORA DE REPORTE": "5 pm",
+  "CODIGO SIGLAB": "A195  "
  },
  {
   "PRUEBA": "Anti SCL 70",
   "DIA DE PROCESO": "Jueves",
   "HORA DE CORTE": "9 am",
-  "HORA DE REPORTE": "5 pm"
+  "HORA DE REPORTE": "5 pm",
+  "CODIGO SIGLAB": "C306  "
  },
  {
-  "PRUEBA": "Anti SSA SSB Smith",
+  "PRUEBA": "Anti SSA",
   "DIA DE PROCESO": "Martes y Sabado",
   "HORA DE CORTE": "9 am",
-  "HORA DE REPORTE": "5 pm"
+  "HORA DE REPORTE": "5 pm",
+  "CODIGO SIGLAB": "A198  "
+ },
+ {
+  "PRUEBA": "Anti SSB",
+  "DIA DE PROCESO": "Martes y Sabado",
+  "HORA DE CORTE": "9 am",
+  "HORA DE REPORTE": "5 pm",
+  "CODIGO SIGLAB": "A197  "
+ },
+ {
+  "PRUEBA": "Anti Smith",
+  "DIA DE PROCESO": "Martes y Sabado",
+  "HORA DE CORTE": "9 am",
+  "HORA DE REPORTE": "5 pm",
+  "CODIGO SIGLAB": "A196  "
  },
  {
   "PRUEBA": "Anti RNP",
   "DIA DE PROCESO": "Jueves",
   "HORA DE CORTE": "9 am",
-  "HORA DE REPORTE": "5 pm"
+  "HORA DE REPORTE": "5 pm",
+  "CODIGO SIGLAB": "A199  "
  },
  {
   "PRUEBA": "Anti transglutaminasa",
   "DIA DE PROCESO": "Miercoles",
   "HORA DE CORTE": "9 am",
-  "HORA DE REPORTE": "5 pm"
+  "HORA DE REPORTE": "5 pm",
+  "CODIGO SIGLAB": "A271  "
+ },
+ {
+  "PRUEBA": "Anti transglutaminasa INSN",
+  "DIA DE PROCESO": "Miercoles",
+  "HORA DE CORTE": "9 am",
+  "HORA DE REPORTE": "5 pm",
+  "CODIGO SIGLAB": "8351F "
+ },
+ {
+  "PRUEBA": "Antifosfolipidos INSN",
+  "DIA DE PROCESO": "Sabado",
+  "HORA DE CORTE": "1 pm",
+  "HORA DE REPORTE": "6 pm",
+  "CODIGO SIGLAB": "86148 "
  },
  {
   "PRUEBA": "Antifosfolipidos IgG IgM",
   "DIA DE PROCESO": "Sabado",
   "HORA DE CORTE": "1 pm",
-  "HORA DE REPORTE": "6 pm"
+  "HORA DE REPORTE": "6 pm",
+  "CODIGO SIGLAB": "A2451 "
  },
  {
-  "PRUEBA": "Betaglicoproteina IgG IgM",
+  "PRUEBA": "Antifosfolipidos IgG IgM INSN",
+  "DIA DE PROCESO": "Sabado",
+  "HORA DE CORTE": "1 pm",
+  "HORA DE REPORTE": "6 pm",
+  "CODIGO SIGLAB": "8614N "
+ },
+ {
+  "PRUEBA": "Antifosfolipidos IgG",
+  "DIA DE PROCESO": "Sabado",
+  "HORA DE CORTE": "1 pm",
+  "HORA DE REPORTE": "6 pm",
+  "CODIGO SIGLAB": "A244  "
+ },
+ {
+  "PRUEBA": "Antifosfolipidos IgM",
+  "DIA DE PROCESO": "Sabado",
+  "HORA DE CORTE": "1 pm",
+  "HORA DE REPORTE": "6 pm",
+  "CODIGO SIGLAB": "A245  "
+ },
+ {
+  "PRUEBA": "Betaglicoproteina IgG",
   "DIA DE PROCESO": "Martes y Jueves",
   "HORA DE CORTE": "9 am",
-  "HORA DE REPORTE": "5 pm"
+  "HORA DE REPORTE": "5 pm",
+  "CODIGO SIGLAB": "A278  "
  },
  {
-  "PRUEBA": "Calculos urinarios biliares",
+  "PRUEBA": "Betaglicoproteina IgM",
+  "DIA DE PROCESO": "Martes y Jueves",
+  "HORA DE CORTE": "9 am",
+  "HORA DE REPORTE": "5 pm",
+  "CODIGO SIGLAB": "A2781 "
+ },
+ {
+  "PRUEBA": "Betaglicoproteina IgG INSN",
+  "DIA DE PROCESO": "Martes y Jueves",
+  "HORA DE CORTE": "9 am",
+  "HORA DE REPORTE": "5 pm",
+  "CODIGO SIGLAB": "86146 "
+ },
+ {
+  "PRUEBA": "Betaglicoproteina IgM INSN",
+  "DIA DE PROCESO": "Martes y Jueves",
+  "HORA DE CORTE": "9 am",
+  "HORA DE REPORTE": "5 pm",
+  "CODIGO SIGLAB": "8614G "
+ },
+ {
+  "PRUEBA": "Benzodiazepina",
+  "DIA DE PROCESO": "Lunes a Sabado",
+  "HORA DE CORTE": "N/A",
+  "HORA DE REPORTE": "Durante el dia",
+  "CODIGO SIGLAB": "D220  "
+ },
+ {
+  "PRUEBA": "Calculos urinario",
   "DIA DE PROCESO": "Lunes a Sabado",
   "HORA DE CORTE": "1 pm",
-  "HORA DE REPORTE": "6 pm"
+  "HORA DE REPORTE": "6 pm",
+  "CODIGO SIGLAB": "O292  "
+ },
+ {
+  "PRUEBA": "Calculos urinario INSN",
+  "DIA DE PROCESO": "Lunes a Sabado",
+  "HORA DE CORTE": "1 pm",
+  "HORA DE REPORTE": "6 pm",
+  "CODIGO SIGLAB": "82360 "
+ },
+ {
+  "PRUEBA": "Calculos biliar",
+  "DIA DE PROCESO": "Lunes a Sabado",
+  "HORA DE CORTE": "1 pm",
+  "HORA DE REPORTE": "6 pm",
+  "CODIGO SIGLAB": "O2920 "
  },
  {
   "PRUEBA": "Calproctetina",
   "DIA DE PROCESO": "Lunes a Sabado",
   "HORA DE CORTE": "N/A",
-  "HORA DE REPORTE": "Durante el dia"
+  "HORA DE REPORTE": "Durante el dia",
+  "CODIGO SIGLAB": "M362  "
  },
  {
-  "PRUEBA": "Cardiolipina IgG IgM",
+  "PRUEBA": "Cardiolipina IgG INSN",
   "DIA DE PROCESO": "Lunes-Miercoles-Viernes",
   "HORA DE CORTE": "9 am",
-  "HORA DE REPORTE": "5 pm"
+  "HORA DE REPORTE": "5 pm",
+  "CODIGO SIGLAB": "86147 "
+ },
+ {
+  "PRUEBA": "Cardiolipina IgM INSN",
+  "DIA DE PROCESO": "Lunes-Miercoles-Viernes",
+  "HORA DE CORTE": "9 am",
+  "HORA DE REPORTE": "5 pm",
+  "CODIGO SIGLAB": "8614B "
+ },
+ {
+  "PRUEBA": "Cardiolipina IgG",
+  "DIA DE PROCESO": "Lunes-Miercoles-Viernes",
+  "HORA DE CORTE": "9 am",
+  "HORA DE REPORTE": "5 pm",
+  "CODIGO SIGLAB": "A200  "
+ },
+ {
+  "PRUEBA": "Cardiolipina IgM",
+  "DIA DE PROCESO": "Lunes-Miercoles-Viernes",
+  "HORA DE CORTE": "9 am",
+  "HORA DE REPORTE": "5 pm",
+  "CODIGO SIGLAB": "A2002 "
  },
  {
   "PRUEBA": "Centromero",
   "DIA DE PROCESO": "Lunes a Sabado",
   "HORA DE CORTE": "9 am",
-  "HORA DE REPORTE": "5 pm"
+  "HORA DE REPORTE": "5 pm",
+  "CODIGO SIGLAB": "A266  "
  },
  {
   "PRUEBA": "Chagas",
   "DIA DE PROCESO": "Lunes a Sabado",
   "HORA DE CORTE": "1 pm",
-  "HORA DE REPORTE": "6 pm"
+  "HORA DE REPORTE": "6 pm",
+  "CODIGO SIGLAB": "I084  "
  },
  {
   "PRUEBA": "Cisticercus Western Blot",
   "DIA DE PROCESO": "Lunes-Miercoles-Viernes",
   "HORA DE CORTE": "1 pm",
-  "HORA DE REPORTE": "6 pm"
+  "HORA DE REPORTE": "6 pm",
+  "CODIGO SIGLAB": "I077  "
  },
  {
-  "PRUEBA": "Citomegalovirus IgG IGM",
+  "PRUEBA": "Cisticercus Western Blot LCR",
+  "DIA DE PROCESO": "Lunes-Miercoles-Viernes",
+  "HORA DE CORTE": "1 pm",
+  "HORA DE REPORTE": "6 pm",
+  "CODIGO SIGLAB": "L114  "
+ },
+ {
+  "PRUEBA": "Citomegalovirus IgG",
   "DIA DE PROCESO": "Lunes a Sabado",
   "HORA DE CORTE": "N/A",
-  "HORA DE REPORTE": "Durante el dia"
+  "HORA DE REPORTE": "Durante el dia",
+  "CODIGO SIGLAB": "V195  "
+ },
+ {
+  "PRUEBA": "Citomegalovirus IGM",
+  "DIA DE PROCESO": "Lunes a Sabado",
+  "HORA DE CORTE": "N/A",
+  "HORA DE REPORTE": "Durante el dia",
+  "CODIGO SIGLAB": "V196  "
  },
  {
   "PRUEBA": "Clamidia trachomatis IgG",
   "DIA DE PROCESO": "Lunes-Miercoles-Viernes",
   "HORA DE CORTE": "9 am",
-  "HORA DE REPORTE": "5 pm"
+  "HORA DE REPORTE": "5 pm",
+  "CODIGO SIGLAB": "I061  "
  },
  {
   "PRUEBA": "Clamidia trachomatis IgM",
   "DIA DE PROCESO": "Lunes a Sabado",
   "HORA DE CORTE": "9 am",
-  "HORA DE REPORTE": "5 pm"
+  "HORA DE REPORTE": "5 pm",
+  "CODIGO SIGLAB": "I0611 "
+ },
+ {
+  "PRUEBA": "Clamidia trachomatis IgM INSN",
+  "DIA DE PROCESO": "Lunes a Sabado",
+  "HORA DE CORTE": "9 am",
+  "HORA DE REPORTE": "5 pm",
+  "CODIGO SIGLAB": "86632 "
  },
  {
   "PRUEBA": "Dengue Elisa IgM",
   "DIA DE PROCESO": "Lunes a Sabado",
   "HORA DE CORTE": "9 am",
-  "HORA DE REPORTE": "5 pm"
+  "HORA DE REPORTE": "5 pm",
+  "CODIGO SIGLAB": "V2132 "
  },
  {
   "PRUEBA": "Dengue Elisa IgG",
   "DIA DE PROCESO": "Lunes a Sabado",
   "HORA DE CORTE": "9 am",
-  "HORA DE REPORTE": "5 pm"
+  "HORA DE REPORTE": "5 pm",
+  "CODIGO SIGLAB": "V2131 "
  },
  {
   "PRUEBA": "Dihidrotestoterona",
   "DIA DE PROCESO": "Martes-Jueves-Sabado",
   "HORA DE CORTE": "9 am",
-  "HORA DE REPORTE": "5 pm"
+  "HORA DE REPORTE": "5 pm",
+  "CODIGO SIGLAB": "P1641 "
  },
  {
   "PRUEBA": "Elastasa",
   "DIA DE PROCESO": "Lunes a Sabado",
   "HORA DE CORTE": "N/A",
-  "HORA DE REPORTE": "Durante el dia"
+  "HORA DE REPORTE": "Durante el dia",
+  "CODIGO SIGLAB": "M365  "
  },
  {
-  "PRUEBA": "Epstein Barr VCA IgG IgM",
+  "PRUEBA": "Epstein Barr VCA IgG",
   "DIA DE PROCESO": "Martes-Jueves-Sabado",
   "HORA DE CORTE": "9 am",
-  "HORA DE REPORTE": "5 pm"
+  "HORA DE REPORTE": "5 pm",
+  "CODIGO SIGLAB": "V0861 "
+ },
+ {
+  "PRUEBA": "Epstein Barr VCA IgM",
+  "DIA DE PROCESO": "Martes-Jueves-Sabado",
+  "HORA DE CORTE": "9 am",
+  "HORA DE REPORTE": "5 pm",
+  "CODIGO SIGLAB": "V086  "
  },
  {
   "PRUEBA": "Epsterin Barr EBNA IgG",
   "DIA DE PROCESO": "Martes-Jueves-Sabado",
   "HORA DE CORTE": "9 am",
-  "HORA DE REPORTE": "5 pm"
+  "HORA DE REPORTE": "5 pm",
+  "CODIGO SIGLAB": "V0862 "
  },
  {
   "PRUEBA": "Epsterin Barr EBNA IgM",
   "DIA DE PROCESO": "Lunes-Miercoles-Viernes",
   "HORA DE CORTE": "9 am",
-  "HORA DE REPORTE": "5 pm"
+  "HORA DE REPORTE": "5 pm",
+  "CODIGO SIGLAB": "V0860 "
+ },
+ {
+  "PRUEBA": "Epsterin Barr EBNA IgG IgM",
+  "DIA DE PROCESO": "Lunes-Miercoles-Viernes",
+  "HORA DE CORTE": "9 am",
+  "HORA DE REPORTE": "5 pm",
+  "CODIGO SIGLAB": "V08601"
+ },
+ {
+  "PRUEBA": "Etanol en saliva",
+  "DIA DE PROCESO": "Lunes a Sabado",
+  "HORA DE CORTE": "N/A",
+  "HORA DE REPORTE": "Durante el dia",
+  "CODIGO SIGLAB": "D205  "
  },
  {
   "PRUEBA": "Fasciola Wester Blot",
   "DIA DE PROCESO": "Lunes-Miercoles-Viernes",
   "HORA DE CORTE": "1 pm",
-  "HORA DE REPORTE": "6 pm"
+  "HORA DE REPORTE": "6 pm",
+  "CODIGO SIGLAB": "I078  "
  },
  {
-  "PRUEBA": "FTA IgG.",
+  "PRUEBA": "FTA en LCR",
   "DIA DE PROCESO": "Lunes a Sabado",
   "HORA DE CORTE": "9 am",
-  "HORA DE REPORTE": "5 pm"
+  "HORA DE REPORTE": "5 pm",
+  "CODIGO SIGLAB": "L099  "
+ },
+ {
+  "PRUEBA": "FTA IgG",
+  "DIA DE PROCESO": "Lunes a Sabado",
+  "HORA DE CORTE": "9 am",
+  "HORA DE REPORTE": "5 pm",
+  "CODIGO SIGLAB": "I060  "
+ },
+ {
+  "PRUEBA": "FTA IgG INSN",
+  "DIA DE PROCESO": "Lunes a Sabado",
+  "HORA DE CORTE": "9 am",
+  "HORA DE REPORTE": "5 pm",
+  "CODIGO SIGLAB": "86781 "
  },
  {
   "PRUEBA": "FTA IgM",
   "DIA DE PROCESO": "Miercoles",
   "HORA DE CORTE": "9 am",
-  "HORA DE REPORTE": "5 pm"
+  "HORA DE REPORTE": "5 pm",
+  "CODIGO SIGLAB": "I0601 "
  },
  {
   "PRUEBA": "Helicobacter pylori IgG",
   "DIA DE PROCESO": "Lunes a Sabado",
   "HORA DE CORTE": "N/A",
-  "HORA DE REPORTE": "Durante el dia"
+  "HORA DE REPORTE": "Durante el dia",
+  "CODIGO SIGLAB": "I085  "
  },
  {
   "PRUEBA": "Helicobacter pylori IgM",
   "DIA DE PROCESO": "Lunes a Sabado",
   "HORA DE CORTE": "9 am",
-  "HORA DE REPORTE": "5 pm"
+  "HORA DE REPORTE": "5 pm",
+  "CODIGO SIGLAB": "I0851 "
  },
  {
-  "PRUEBA": "Herpes 1 y 2 IgG IgM",
+  "PRUEBA": "Herpes 1 IgG",
   "DIA DE PROCESO": "Lunes a Sabado",
   "HORA DE CORTE": "N/A",
-  "HORA DE REPORTE": "Durante el dia"
+  "HORA DE REPORTE": "Durante el dia",
+  "CODIGO SIGLAB": "V193  "
+ },
+ {
+  "PRUEBA": "Herpes 1 IgM",
+  "DIA DE PROCESO": "Lunes a Sabado",
+  "HORA DE CORTE": "N/A",
+  "HORA DE REPORTE": "Durante el dia",
+  "CODIGO SIGLAB": "V198  "
+ },
+ {
+  "PRUEBA": "Herpes 2 IgG",
+  "DIA DE PROCESO": "Lunes a Sabado",
+  "HORA DE CORTE": "N/A",
+  "HORA DE REPORTE": "Durante el dia",
+  "CODIGO SIGLAB": "V194  "
+ },
+ {
+  "PRUEBA": "Herpes 2 IgM",
+  "DIA DE PROCESO": "Lunes a Sabado",
+  "HORA DE CORTE": "N/A",
+  "HORA DE REPORTE": "Durante el dia",
+  "CODIGO SIGLAB": "V197  "
  },
  {
   "PRUEBA": "Hidatidosis Western Blot",
   "DIA DE PROCESO": "Lunes-Miercoles-Viernes",
   "HORA DE CORTE": "1 pm",
-  "HORA DE REPORTE": "6 pm"
+  "HORA DE REPORTE": "6 pm",
+  "CODIGO SIGLAB": "I076  "
  },
  {
   "PRUEBA": "HIV Western Blot",
   "DIA DE PROCESO": "Lunes a Viernes",
   "HORA DE CORTE": "5 pm",
-  "HORA DE REPORTE": "Al dia sgte 5 pm"
+  "HORA DE REPORTE": "Al dia sgte 5 pm",
+  "CODIGO SIGLAB": "V084  "
  },
  {
   "PRUEBA": "HTLV EIA",
   "DIA DE PROCESO": "Lunes a Sabado",
   "HORA DE CORTE": "1 pm",
-  "HORA DE REPORTE": "6 pm"
+  "HORA DE REPORTE": "6 pm",
+  "CODIGO SIGLAB": "V207  "
  },
  {
   "PRUEBA": "IFI viral",
   "DIA DE PROCESO": "Lunes a Sabado",
   "HORA DE CORTE": "1 pm",
-  "HORA DE REPORTE": "6 pm"
+  "HORA DE REPORTE": "6 pm",
+  "CODIGO SIGLAB": "A2861 "
  },
  {
-  "PRUEBA": "Inmunofijacion suero orina",
+  "PRUEBA": "Inmunofijacion suero",
   "DIA DE PROCESO": "Martes y Jueves",
   "HORA DE CORTE": "9 am",
-  "HORA DE REPORTE": "5 pm"
+  "HORA DE REPORTE": "5 pm",
+  "CODIGO SIGLAB": "E225  "
  },
  {
-  "PRUEBA": "Micoplasma pneunoniae IgG IgM",
+  "PRUEBA": "Inmunofijacion orina",
+  "DIA DE PROCESO": "Martes y Jueves",
+  "HORA DE CORTE": "9 am",
+  "HORA DE REPORTE": "5 pm",
+  "CODIGO SIGLAB": "E226  "
+ },
+ {
+  "PRUEBA": "Interferon Gamma (Quantiferon)",
+  "DIA DE PROCESO": "Lunes a Sabado",
+  "HORA DE CORTE": "9 am",
+  "HORA DE REPORTE": "5 pm",
+  "CODIGO SIGLAB": "A287  "
+ },
+ {
+  "PRUEBA": "Micoplasma pneunoniae IgG",
   "DIA DE PROCESO": "Lunes",
   "HORA DE CORTE": "9 am",
-  "HORA DE REPORTE": "5 pm"
+  "HORA DE REPORTE": "5 pm",
+  "CODIGO SIGLAB": "V090  "
+ },
+ {
+  "PRUEBA": "Micoplasma pneunoniae IgM",
+  "DIA DE PROCESO": "Lunes",
+  "HORA DE CORTE": "9 am",
+  "HORA DE REPORTE": "5 pm",
+  "CODIGO SIGLAB": "V0901 "
+ },
+ {
+  "PRUEBA": "Micoplasma pneunoniae IgM INSN",
+  "DIA DE PROCESO": "Lunes",
+  "HORA DE CORTE": "9 am",
+  "HORA DE REPORTE": "5 pm",
+  "CODIGO SIGLAB": "86738 "
  },
  {
   "PRUEBA": "Mitocondrial",
   "DIA DE PROCESO": "Jueves",
   "HORA DE CORTE": "9 am",
-  "HORA DE REPORTE": "5 pm"
+  "HORA DE REPORTE": "5 pm",
+  "CODIGO SIGLAB": "A217  "
+ },
+ {
+  "PRUEBA": "Mononucleosis Paul Bunnel",
+  "DIA DE PROCESO": "Lunes a Sabado",
+  "HORA DE CORTE": "N/A",
+  "HORA DE REPORTE": "Durante el dia",
+  "CODIGO SIGLAB": "V087  "
  },
  {
   "PRUEBA": "Musculo liso",
   "DIA DE PROCESO": "Lunes a Sabado",
   "HORA DE CORTE": "9 am",
-  "HORA DE REPORTE": "5 pm"
+  "HORA DE REPORTE": "5 pm",
+  "CODIGO SIGLAB": "A216  "
+ },
+ {
+  "PRUEBA": "Musculo liso INSN",
+  "DIA DE PROCESO": "Lunes a Sabado",
+  "HORA DE CORTE": "9 am",
+  "HORA DE REPORTE": "5 pm",
+  "CODIGO SIGLAB": "8602C "
+ },
+ {
+  "PRUEBA": "Nicotina",
+  "DIA DE PROCESO": "Lunes a Sabado",
+  "HORA DE CORTE": "N/A",
+  "HORA DE REPORTE": "Durante el dia",
+  "CODIGO SIGLAB": "D106  "
  },
  {
   "PRUEBA": "Panel de alergia",
   "DIA DE PROCESO": "Lunes a Sabado",
   "HORA DE CORTE": "1 pm",
-  "HORA DE REPORTE": "7 pm"
+  "HORA DE REPORTE": "7 pm",
+  "CODIGO SIGLAB": "A243  "
  },
  {
-  "PRUEBA": "Panel de drogas",
+  "PRUEBA": "Panel de 3 drogas",
   "DIA DE PROCESO": "Lunes a Sabado",
   "HORA DE CORTE": "N/A",
-  "HORA DE REPORTE": "Durante el dia"
+  "HORA DE REPORTE": "Durante el dia",
+  "CODIGO SIGLAB": "APT001"
+ },
+ {
+  "PRUEBA": "Panel de 5 drogas",
+  "DIA DE PROCESO": "Lunes a Sabado",
+  "HORA DE CORTE": "N/A",
+  "HORA DE REPORTE": "Durante el dia",
+  "CODIGO SIGLAB": "D2226 "
+ },
+ {
+  "PRUEBA": "Panel de 10 drogas",
+  "DIA DE PROCESO": "Lunes a Sabado",
+  "HORA DE CORTE": "N/A",
+  "HORA DE REPORTE": "Durante el dia",
+  "CODIGO SIGLAB": "D2221 "
  },
  {
   "PRUEBA": "Peptido C",
   "DIA DE PROCESO": "Martes-Jueves-Sabado",
   "HORA DE CORTE": "N/A",
-  "HORA DE REPORTE": "Durante el dia"
+  "HORA DE REPORTE": "Durante el dia",
+  "CODIGO SIGLAB": "P177  "
  },
  {
-  "PRUEBA": "Perfil ENA",
+  "PRUEBA": "Peptido C INSN",
+  "DIA DE PROCESO": "Martes-Jueves-Sabado",
+  "HORA DE CORTE": "N/A",
+  "HORA DE REPORTE": "Durante el dia",
+  "CODIGO SIGLAB": "84681 "
+ },
+ {
+  "PRUEBA": "Perfil ENA extendido",
   "DIA DE PROCESO": "Lunes a Sabado",
   "HORA DE CORTE": "9 am",
-  "HORA DE REPORTE": "5 pm"
+  "HORA DE REPORTE": "5 pm",
+  "CODIGO SIGLAB": "A1912 "
+ },
+ {
+  "PRUEBA": "Perfil ENA extendido INSN",
+  "DIA DE PROCESO": "Lunes a Sabado",
+  "HORA DE CORTE": "9 am",
+  "HORA DE REPORTE": "5 pm",
+  "CODIGO SIGLAB": "8625D "
+ },
+ {
+  "PRUEBA": "Perfil Torch",
+  "DIA DE PROCESO": "Lunes a Sabado",
+  "HORA DE CORTE": "N/A",
+  "HORA DE REPORTE": "Durante el dia",
+  "CODIGO SIGLAB": "T11198"
+ },
+ {
+  "PRUEBA": "Perfil Torch Incor",
+  "DIA DE PROCESO": "Lunes a Sabado",
+  "HORA DE CORTE": "N/A",
+  "HORA DE REPORTE": "Durante el dia",
+  "CODIGO SIGLAB": "P1016 - P1110"
  },
  {
   "PRUEBA": "Pregnosrticon",
   "DIA DE PROCESO": "Lunes a Sabado",
   "HORA DE CORTE": "N/A",
-  "HORA DE REPORTE": "Durante el dia"
+  "HORA DE REPORTE": "Durante el dia",
+  "CODIGO SIGLAB": "O282  "
  },
  {
   "PRUEBA": "Proteinograma suero",
   "DIA DE PROCESO": "Martes y Jueves",
   "HORA DE CORTE": "9 am",
-  "HORA DE REPORTE": "5 pm"
- },
- {
-  "PRUEBA": "Quantiferon",
-  "DIA DE PROCESO": "Lunes a Sabado",
-  "HORA DE CORTE": "9 am",
-  "HORA DE REPORTE": "5 pm"
+  "HORA DE REPORTE": "5 pm",
+  "CODIGO SIGLAB": "E111  "
  },
  {
   "PRUEBA": "Rosa de Bengala",
   "DIA DE PROCESO": "Lunes a Sabado",
   "HORA DE CORTE": "N/A",
-  "HORA DE REPORTE": "Durante el dia"
+  "HORA DE REPORTE": "Durante el dia",
+  "CODIGO SIGLAB": "I0551 "
  },
  {
-  "PRUEBA": "RPR - VDRL",
+  "PRUEBA": "RPR Sifilis",
   "DIA DE PROCESO": "Lunes a Sabado",
   "HORA DE CORTE": "N/A",
-  "HORA DE REPORTE": "Durante el dia"
+  "HORA DE REPORTE": "Durante el dia",
+  "CODIGO SIGLAB": "I059  "
  },
  {
-  "PRUEBA": "Rubeola IgG IGM",
+  "PRUEBA": "RPR Sifilis (conveio SO)",
   "DIA DE PROCESO": "Lunes a Sabado",
   "HORA DE CORTE": "N/A",
-  "HORA DE REPORTE": "Durante el dia"
+  "HORA DE REPORTE": "Durante el dia",
+  "CODIGO SIGLAB": "TJ1596"
  },
  {
-  "PRUEBA": "Sifilis",
+  "PRUEBA": "RPR Sifilis Sanitario o prenupcial",
+  "DIA DE PROCESO": "Lunes a Sabado",
+  "HORA DE CORTE": "N/A",
+  "HORA DE REPORTE": "Durante el dia",
+  "CODIGO SIGLAB": "I0592 "
+ },
+ {
+  "PRUEBA": "Rubeola IgG",
+  "DIA DE PROCESO": "Lunes a Sabado",
+  "HORA DE CORTE": "N/A",
+  "HORA DE REPORTE": "Durante el dia",
+  "CODIGO SIGLAB": "V091  "
+ },
+ {
+  "PRUEBA": "Rubeola IgM",
+  "DIA DE PROCESO": "Lunes a Sabado",
+  "HORA DE CORTE": "N/A",
+  "HORA DE REPORTE": "Durante el dia",
+  "CODIGO SIGLAB": "V092  "
+ },
+ {
+  "PRUEBA": "Sifilis Elisa",
   "DIA DE PROCESO": "Lunes a Sabado",
   "HORA DE CORTE": "1 pm",
-  "HORA DE REPORTE": "6 pm"
+  "HORA DE REPORTE": "6 pm",
+  "CODIGO SIGLAB": "V222  "
  },
  {
-  "PRUEBA": "Tamizaje Neonatal",
+  "PRUEBA": "Tamizaje Neonatal 4",
   "DIA DE PROCESO": "Viernes inicia Sabado termina",
   "HORA DE CORTE": "9 am",
-  "HORA DE REPORTE": "Al dia sgte 6 pm"
+  "HORA DE REPORTE": "Al dia sgte 6 pm",
+  "CODIGO SIGLAB": "EC001 "
+ },
+ {
+  "PRUEBA": "Tamizaje Neonatal 5",
+  "DIA DE PROCESO": "Viernes inicia Sabado termina",
+  "HORA DE CORTE": "9 am",
+  "HORA DE REPORTE": "Al dia sgte 6 pm",
+  "CODIGO SIGLAB": "EC002 "
  },
  {
   "PRUEBA": "Testosterona Libre",
   "DIA DE PROCESO": "Lunes a Sabado",
   "HORA DE CORTE": "N/A",
-  "HORA DE REPORTE": "Durante el dia"
+  "HORA DE REPORTE": "Durante el dia",
+  "CODIGO SIGLAB": "P164  "
  },
  {
-  "PRUEBA": "Toxoplasma IgG IgM",
+  "PRUEBA": "TORCH IgG",
   "DIA DE PROCESO": "Lunes a Sabado",
   "HORA DE CORTE": "N/A",
-  "HORA DE REPORTE": "Durante el dia"
+  "HORA DE REPORTE": "Durante el dia",
+  "CODIGO SIGLAB": "P1009 "
+ },
+ {
+  "PRUEBA": "TORCH IgM",
+  "DIA DE PROCESO": "Lunes a Sabado",
+  "HORA DE CORTE": "N/A",
+  "HORA DE REPORTE": "Durante el dia",
+  "CODIGO SIGLAB": "P1011 "
+ },
+ {
+  "PRUEBA": "Toxoplasma IgG",
+  "DIA DE PROCESO": "Lunes a Sabado",
+  "HORA DE CORTE": "N/A",
+  "HORA DE REPORTE": "Durante el dia",
+  "CODIGO SIGLAB": "I071  "
+ },
+ {
+  "PRUEBA": "Toxoplasma IgM",
+  "DIA DE PROCESO": "Lunes a Sabado",
+  "HORA DE CORTE": "N/A",
+  "HORA DE REPORTE": "Durante el dia",
+  "CODIGO SIGLAB": "I072  "
  },
  {
   "PRUEBA": "Varicela IgG",
   "DIA DE PROCESO": "Jueves",
   "HORA DE CORTE": "9 am",
-  "HORA DE REPORTE": "5 pm"
+  "HORA DE REPORTE": "5 pm",
+  "CODIGO SIGLAB": "V203  "
  },
  {
   "PRUEBA": "Varicela IgM",
   "DIA DE PROCESO": "Lunes",
   "HORA DE CORTE": "9 am",
-  "HORA DE REPORTE": "5 pm"
+  "HORA DE REPORTE": "5 pm",
+  "CODIGO SIGLAB": "V204  "
+ },
+ {
+  "PRUEBA": "Varicela IgG INSN",
+  "DIA DE PROCESO": "Jueves",
+  "HORA DE CORTE": "9 am",
+  "HORA DE REPORTE": "5 pm",
+  "CODIGO SIGLAB": "86787 "
+ },
+ {
+  "PRUEBA": "Varicela IgM INSN",
+  "DIA DE PROCESO": "Lunes",
+  "HORA DE CORTE": "9 am",
+  "HORA DE REPORTE": "5 pm",
+  "CODIGO SIGLAB": "8678S "
+ },
+ {
+  "PRUEBA": "VDRL ",
+  "DIA DE PROCESO": "Lunes a Sabado",
+  "HORA DE CORTE": "N/A",
+  "HORA DE REPORTE": "Durante el dia",
+  "CODIGO SIGLAB": "I0593 "
  },
  {
   "PRUEBA": "Vitamina D (25-OH Hidroxivitamina)",
   "DIA DE PROCESO": "Lunes a Sabado",
   "HORA DE CORTE": "N/A",
-  "HORA DE REPORTE": "Durante el dia"
+  "HORA DE REPORTE": "Durante el dia",
+  "CODIGO SIGLAB": "D212  "
+ },
+ {
+  "PRUEBA": "Vitamina D (25-OH Hidroxivitamina) INSN",
+  "DIA DE PROCESO": "Lunes a Sabado",
+  "HORA DE CORTE": "N/A",
+  "HORA DE REPORTE": "Durante el dia",
+  "CODIGO SIGLAB": "82306 "
  },
  {
   "PRUEBA": "Vitamina D (1,25 OH)",
   "DIA DE PROCESO": "Miercoles",
   "HORA DE CORTE": "N/A",
-  "HORA DE REPORTE": "Durante el dia"
- },
- {
-  "PRUEBA": "Waller Rose - Paul Bunnel",
-  "DIA DE PROCESO": "Lunes a Sabado",
-  "HORA DE CORTE": "N/A",
-  "HORA DE REPORTE": "Durante el dia"
+  "HORA DE REPORTE": "Durante el dia",
+  "CODIGO SIGLAB": "D213  "
  }
 ]

@@ -6,7 +6,7 @@ import studios from '@/lib/studios.json';
 
 const phrases = [
   "El éxito no es final, el fracaso no es fatal: es el coraje de continuar lo que cuenta.",
-  "La mejor manera de predecir el futuro es creándolo.",
+  "La mejor manera de predecir el futuro es creándola.",
   "Tu trabajo va a llenar gran parte de tu vida, la única manera de estar realmente satisfecho es hacer lo que crees que es un gran trabajo.",
   "No se trata de dónde vienes, sino de dónde vas.",
   "Cada gran diseño comienza con una historia aún mejor.",
@@ -19,6 +19,7 @@ interface Studio {
   "DIA DE PROCESO": string;
   "HORA DE CORTE": string;
   "HORA DE REPORTE": string;
+  "CODIGO SIGLAB": string | number;
 }
 
 const MotivationalPhrase = () => {
@@ -74,8 +75,10 @@ export default function Home() {
       return;
     }
 
+    const lowercasedQuery = searchQuery.toLowerCase();
     const filtered = studios.filter(studio =>
-      studio.PRUEBA.toLowerCase().includes(searchQuery.toLowerCase())
+      studio.PRUEBA.toLowerCase().includes(lowercasedQuery) ||
+      String(studio["CODIGO SIGLAB"]).toLowerCase().includes(lowercasedQuery)
     );
     setSearchResults(filtered);
   }, [searchQuery]);
@@ -214,6 +217,7 @@ export default function Home() {
                             <p><span className="font-semibold">Día de Proceso:</span> {studio["DIA DE PROCESO"]}</p>
                             <p><span className="font-semibold">Hora de Corte:</span> {studio["HORA DE CORTE"]}</p>
                             <p><span className="font-semibold">Hora de Reporte:</span> {studio["HORA DE REPORTE"]}</p>
+                            <p><span className="font-semibold">Código SIGLAB:</span> {studio["CODIGO SIGLAB"]}</p>
                           </li>
                         ))}
                       </ul>
